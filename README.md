@@ -55,5 +55,5 @@ curl -fsSL https://ollama.com/install.sh | sh
 ollama pull gpt2
 git clone https://github.com/Vesteria-Coding/AutoCorrect.git
 cd AutoCorrect
-pip install -r requirements.txt
+sudo pip install -r requirements.txt
 sudo python AutoCorrect.py --api_key YOUR_GOOGLE_GEMINI_API_KEY
