@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 # Setup
 parser = argparse.ArgumentParser(description="Simple Spell Checker Using Gemini")
 parser.add_argument('--api_key', help='Input your Gemini API key')
-parser.add_argument('--local_model', help='Runs a local model on your PC')
+parser.add_argument('--local_model', action='store_true', help='Runs a local model on your PC')
 args = parser.parse_args()
 api_key = args.api_key
 local_model = args.local_model
