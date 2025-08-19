@@ -36,7 +36,7 @@ Install dependencies with:
 
 ```bash
 curl -fsSL https://ollama.com/install.sh | sh
-ollama pull gemma:2b
+ollama pull gpt2
 git clone https://github.com/Vesteria-Coding/AutoCorrect.git
 cd AutoCorrect
 pip install -r requirements.txt
@@ -52,7 +52,7 @@ python AutoCorrect.py --api_key YOUR_GOOGLE_GEMINI_API_KEY
 
 ```bash
 curl -fsSL https://ollama.com/install.sh | sh
-ollama pull gemma:2b
+ollama pull gpt2
 git clone https://github.com/Vesteria-Coding/AutoCorrect.git
 cd AutoCorrect
 pip install -r requirements.txt
