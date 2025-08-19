@@ -30,7 +30,7 @@ if local_model:
                     key = event.name
                     if key == '`':
                         response = ollama.chat(
-                            model="gemma:2b",
+                            model="gpt2",
                             messages=[{
                                 "role": "user",
                                 "content": f"Do not add, remove, or change the meaning of any words. Only correct spelling and grammar errors in the following text: {key_log}"
