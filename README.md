@@ -1,4 +1,4 @@
-# Real-time Grammar and Spelling Corrector Using Google Gemini API
+# Real-time Grammar and Spelling Corrector Using Google Gemini API or An Ollama Local Model
 
 This Python script listens for keyboard input and automatically corrects spelling and grammar in real-time using Google's Gemini API. When you press the backtick key (`), it sends the typed text to the API and replaces it with the corrected text in your active application.
 
